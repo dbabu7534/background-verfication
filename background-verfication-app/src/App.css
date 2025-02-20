@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  flex-direction: row; /* Change from column to row */
+  gap: 10px;
+  margin-bottom: 20px;
+  justify-content: center; /* Center align items horizontally */
+}
+
+.box {
+  padding: 16px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  user-select: none;
+  text-align: center;
+  min-width: 150px; /* Set a minimum width */
+}
+
+.submit-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.submit-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}

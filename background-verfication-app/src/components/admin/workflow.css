@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .box {
+    padding: 16px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    cursor: move;
+  }
+  
+  .box.dragging {
+    opacity: 0.5;
+    background-color: #e0e0e0;
+  }
+  
+  .submit-container {
+    text-align: center;
+  }
+  
+  .submit-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 10px;
+  }

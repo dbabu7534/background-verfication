@@ -1,0 +1,50 @@
+/* src/HomePage.css */
+.home-page {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .hero-section {
+    background-image: url('background.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: black;
+    padding: 100px 0;
+    flex: 1;
+    display: flex;
+    align-items: center;
+  }
+  
+  .hero-title {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .hero-description {
+    font-size: 1.25rem;
+    margin-bottom: 40px;
+  }
+  
+  .cta-buttons {
+    margin-top: 20px;
+  }
+  
+  .features-section {
+    padding: 60px 0;
+    background-color: #f8f9fa;
+  }
+  
+  .features-section h3 {
+    font-size: 1.75rem;
+    margin-bottom: 15px;
+  }
+  
+  .features-section p {
+    font-size: 1rem;
+    color: #666;
+  }
